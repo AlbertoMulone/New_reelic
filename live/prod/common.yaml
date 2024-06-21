@@ -1,0 +1,23 @@
+---
+env: prod
+env_aws: praws
+network_envs:
+  - ca
+  - print
+  - prdmz
+  - printpdbc
+  - printmobc
+  - prdmzpdbc
+  - prdmzmobc
+  - printpdbc.ca
+  - printmobc.ca
+  - prdmzpdbc.ca
+  - prdmzmobc.ca
+network_envs_aws:
+  - praws
+network_envs_ifc:
+  - ca.ge1901
+  - print.ge1901
+  - prdmz.ge1901
+enabled: true
+notification: legalcert_call_h24

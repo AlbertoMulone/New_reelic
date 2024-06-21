@@ -1,0 +1,21 @@
+---
+env: coll
+env_aws: claws
+network_envs:
+   - clint
+   - cldmz
+   - clintpdbc
+   - clintmobc
+   - cldmzpdbc
+   - cldmzmobc
+   - clintpdbc.ca
+   - clintmobc.ca
+   - cldmzpdbc.ca
+   - cldmzmobc.ca
+network_envs_aws:
+   - claws
+network_envs_ifc:
+   - clint.ge1901
+   - cldmz.ge1901
+enabled: true
+notification: legalcert_ticket

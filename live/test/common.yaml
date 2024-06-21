@@ -1,0 +1,6 @@
+---
+env: test
+network_envs:
+  - tsint
+enabled: false
+notification: legalcert_ticket

@@ -1,0 +1,6 @@
+---
+terraform:
+  version: "= 1.4.6"
+newrelic:
+  region: "EU"
+  version: "= 3.25.2"
